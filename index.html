@@ -44,6 +44,30 @@
     <script src="js/hammer.min.js" charset="utf-8"></script>
     <script src="js/tilda-zoom-2.0.min.js" charset="utf-8"></script>
     
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDmk1L2hCOqjcE8f5IquXYFA6f_AdvAQhk",
+    authDomain: "dash-monkey.firebaseapp.com",
+    projectId: "dash-monkey",
+    storageBucket: "dash-monkey.appspot.com",
+    messagingSenderId: "188636895063",
+    appId: "1:188636895063:web:1924e5c1042472f5471012",
+    measurementId: "G-S2SRY59KM1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    
     <base target="_blank">
     
     <script type="text/javascript">if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y') {
